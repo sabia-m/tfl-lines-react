@@ -1,7 +1,6 @@
 body {
-    background-color: cadetblue;
+    background-color: paleturquoise;
 }
-
 .selector-container {
     display: flex;
     justify-content: center;
@@ -30,7 +29,9 @@ h1 {
 
 .start-line, .destination {
     border: 2px solid wheat;
+    color: wheat;
+    background-color: midnightblue;
     margin: 5px;
-    padding: 2px;
+    padding: 50px;
 }
 

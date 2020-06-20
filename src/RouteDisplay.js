@@ -12,14 +12,15 @@ useEffect(() => {
       });
   }, [props.selectedTrain]);
 
-console.log(selectedRoute.routeSections)
-
   return (
     <div className="route-cards">
         <div className="start-line">
+          <h3>START OF LINE</h3>
             {selectedRoute.routeSections && <p>This journey begins from: {selectedRoute.routeSections[0].originationName}</p>}
         </div>
+        
         <div className="destination">
+        <h3>END OF LINE</h3>
         {selectedRoute.routeSections && <p>This journey terminates at: {selectedRoute.routeSections[0].destinationName}</p>}
         </div>
     </div>
