@@ -35,7 +35,7 @@ function App() {
           );
         })}
       </select>
-      <p>You selected mode: {selectedMode}</p>
+      <p>Your selected mode: {selectedMode}</p>
       {selectedMode && <LineSelector selectedMode={selectedMode}/>}
       </div>
       </div>

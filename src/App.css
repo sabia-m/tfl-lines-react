@@ -23,3 +23,14 @@ h1 {
     text-align: center;
 }
 
+.route-cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.start-line, .destination {
+    border: 2px solid wheat;
+    margin: 5px;
+    padding: 2px;
+}
+
